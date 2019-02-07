@@ -1,0 +1,22 @@
+{
+  "name": "ui-project",
+  "version": "1.0.0",
+  "description": "refactor of the lambda ui project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrinagear/User-Interface-Project-Week.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrinagear/User-Interface-Project-Week/issues"
+  },
+  "homepage": "https://github.com/sabrinagear/User-Interface-Project-Week#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

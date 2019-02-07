@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>Home</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <!--[if IE]>
-					<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-				<![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+        <head>
+                <!--Import Google Icon Font-->
+                <link
+                  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                  rel="stylesheet"
+                />
+            
+                <link
+                  href="https://fonts.googleapis.com/css?family=Gravitas+One|Rock+Salt"
+                  rel="stylesheet"
+                />
+                <!--Import materialize.css-->
+                <link
+                  type="text/css"
+                  rel="stylesheet"
+                  href="./materialize/css/materialize.min.css"
+                  media="screen,projection"
+                />
+            
+                <link
+                  type="text/css"
+                  rel="stylesheet"
+                  href="./css/index.css"
+                  media="screen,projection"
+                />
+                <!--Hamburgers-->
+                <link
+                  type="text/css"
+                  rel="stylesheet"
+                  href="./css/hamburgers.css"
+                  media="screen,projection"
+                />
+                <!--Let browser know website is optimized for mobile-->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              </head>
+            
 <div class="container">
 
     <body>
 
-        <nav>
-            <h1 onclick="window.location.href='/index.html'">S&J</h1>
-
-
-            <img class="menu-button" src="./img/nav-hamburger.png" alt="navigation icon" onclick="openNav()">
-
-            <img class="closebtn" src="img/nav-hamburger-close.png" alt="close button" onclick="closeNav()">
-
-            <div class="expander">
-
-
-
-
-
-
-
-                <div class="menu">
-                    <a class="expand-link" href="/index.html">Home </a>
-                    <a class="expand-link" href="/services.html">Services</a>
-                    <a class="expand-link" href="/about.html">About</a>
-                    <a class="expand-link" href="/gallery.html">Gallery</a>
-                    <a class="expand-link" href="/contact.html">Contact</a>
-                </div>
-            </div>
-        </nav>
+            <div class="navbar-fixed ">
+                    <nav>
+                      <div class="nav-wrapper black">
+                        <a href="#!" class="brand-logo">Logo</a>
+                        <ul class="right hide-on-med-and-down">
+                          <li>
+                            <a class="hamburger hamburger--collapse">
+                              <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                  <div class="menu overlay">
+                    <ul class="overlay-content">
+                      <a href="/about.html"><li>About</li></a>
+                      <a href="/gallery.html"> <li>Gallery</li></a>
+                      <li>Contact</li>
+                    </ul>
+                  </div>
 
         <header class="contact-header">
 
@@ -145,7 +169,20 @@
 </div>
 
 
-<script src="js/index.js"></script>
+ <!--JavaScript at end of body for optimized loading-->
+ <script
+ type="text/javascript"
+ src="./materialize/js/materialize.min.js"
+></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+ if (!window.jQuery) {
+   document.write('<script src="bin/jquery-3.2.1.min.js"><\/script>');
+ }
+</script>
+
+<script src="/materialize/js/materialize.js"></script>
 </body>
 
 </html>
